@@ -12,9 +12,11 @@ and open the template in the editor.
     -fx-background-color: transparent
 }
 #openFile{
+    /*add the background image url*/
     -fx-background-image: url("open-folder-with-document.png");
 }
 #play{
+    /*add the background image url*/
     -fx-background-image: url("../images/play-button.png");
     -fx-background-position: center;
     -fx-background-size: 20 20;
