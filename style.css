@@ -14,10 +14,56 @@ and open the template in the editor.
 #openFile{
     /*add the background image url*/
     -fx-background-image: url("open-folder-with-document.png");
+    -fx-background-position: center;
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
 }
 #play{
     /*add the background image url*/
-    -fx-background-image: url("../images/play-button.png");
+    -fx-background-image: url("play-button.png");
+    -fx-background-position: center;
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+}
+#pause{
+    /*add the background image url*/
+    -fx-background-image: url("pause-button.png");
+    -fx-background-position: center;
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+}#stop{
+    /*add the background image url*/
+    -fx-background-image: url("stop-button-black-rounded-square.png");
+    -fx-background-position: center;
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+}#extraslow{
+    /*add the background image url*/
+    -fx-background-image: url("previous-arrow.png");
+    -fx-background-position: center;
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+}#slow{
+    /*add the background image url*/
+    -fx-background-image: url("rewind.png");
+    -fx-background-position: center;
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+}#fast{
+    /*add the background image url*/
+    -fx-background-image: url("fast-forward.png");
+    -fx-background-position: center;
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+}#extrafast{
+    /*add the background image url*/
+    -fx-background-image: url("fast-forward-arrows-symbol.png");
+    -fx-background-position: center;
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+}#exit{
+    /*add the background image url*/
+    -fx-background-image: url("logout.png");
     -fx-background-position: center;
     -fx-background-size: 20 20;
     -fx-background-repeat: no-repeat;
