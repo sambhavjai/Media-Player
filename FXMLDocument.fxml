@@ -15,42 +15,60 @@
       <children>
         <HBox alignment="CENTER" prefHeight="40.0" prefWidth="-1.0">
           <children>
-            <Button id="openFile" fx:id="openFile" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButtonAction" stylesheets="@style.css" text="open">
+            <Button id="openFile" fx:id="openFile" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButtonAction" stylesheets="@style.css">
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="50.0" />
+                     </padding></Button>
+            <Button fx:id="play" mnemonicParsing="false" onAction="#playVideo">
                      <HBox.margin>
                         <Insets right="20.0" />
                      </HBox.margin></Button>
-            <Button fx:id="play" mnemonicParsing="false" onAction="#playVideo" text="play">
+            <Button fx:id="pause" mnemonicParsing="false" onAction="#pauseVideo">
                      <HBox.margin>
                         <Insets right="20.0" />
                      </HBox.margin></Button>
-            <Button fx:id="pause" mnemonicParsing="false" onAction="#pauseVideo" text="pause">
-                     <HBox.margin>
-                        <Insets right="20.0" />
-                     </HBox.margin></Button>
-            <Button fx:id="stop" mnemonicParsing="false" onAction="#stopVideo" text="stop">
+            <Button fx:id="stop" mnemonicParsing="false" onAction="#stopVideo">
                      <HBox.margin>
                         <Insets right="10.0" />
                      </HBox.margin></Button>
-            <Button fx:id="extraslow" mnemonicParsing="false" onAction="#slowerVideo" text="&lt;&lt;&lt;">
+            <Button fx:id="extraslow" mnemonicParsing="false" onAction="#slowerVideo">
                      <HBox.margin>
                         <Insets right="20.0" />
-                     </HBox.margin></Button>
-            <Button fx:id="slow" mnemonicParsing="false" onAction="#slowVideo" text="&lt;&lt;">
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="50.0" />
+                     </padding></Button>
+            <Button fx:id="slow" mnemonicParsing="false" onAction="#slowVideo">
                      <HBox.margin>
                         <Insets right="20.0" />
-                     </HBox.margin></Button>
-            <Button fx:id="fast" mnemonicParsing="false" onAction="#fastVideo" text="&gt;&gt;">
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="50.0" />
+                     </padding></Button>
+            <Button fx:id="fast" mnemonicParsing="false" onAction="#fastVideo">
                      <HBox.margin>
                         <Insets right="20.0" />
-                     </HBox.margin></Button>
-            <Button fx:id="extrafast" mnemonicParsing="false" onAction="#fasterVideo" text="&gt;&gt;&gt;">
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="50.0" />
+                     </padding></Button>
+            <Button fx:id="extrafast" mnemonicParsing="false" onAction="#fasterVideo">
                      <HBox.margin>
                         <Insets right="20.0" />
-                     </HBox.margin></Button>
-            <Button fx:id="exit" mnemonicParsing="false" onAction="#exitVideo" text="Exit">
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="50.0" />
+                     </padding></Button>
+            <Button fx:id="exit" mnemonicParsing="false" onAction="#exitVideo">
                      <HBox.margin>
                         <Insets right="20.0" />
-                     </HBox.margin></Button>
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="30.0" />
+                     </padding></Button>
                   <Slider fx:id="slider" />
           </children>
         </HBox>
